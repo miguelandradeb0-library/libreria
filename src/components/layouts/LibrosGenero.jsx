@@ -7,30 +7,32 @@ function LibrosGenero() {
     <section className='libros'>
         <Header />
     <section className='generos'>
-      <section className='librosCoverUno'>
+      <section className='imagenes'>
+      <section >
         <img src={portada} height={100} width={100} />
       </section>
-      <section className='librosCoverDos'>
+      <section >
         <img src={portada} height={100} width={100} />
       </section>
-      <section className='librosCoverTres'>
+      <section >
         <img src={portada} height={100} width={100} />
       </section>
-      <section className='librosCoverCuatro'>
+      <section >
         <img src={portada} height={100} width={100} />
       </section>
-      <section className='librosCoverQuinto'>
+      <section >
         <img src={portada} height={100} width={100} />
       </section>
-      <section className='librosCoverSexto'>
+      <section >
         <img src={portada} height={100} width={100} />
       </section>
-      <section className='librosCoverSeptimo'>
+      <section >
         <img src={portada} height={100} width={100} />
       </section>
-      <section className='librosCoverOctavo'>
+      <section >
         <img src={portada} height={100} width={100} />
       </section>
+    </section>
     </section>
     </section>
   )
