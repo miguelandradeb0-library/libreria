@@ -8,6 +8,7 @@ function LibrosGenero() {
         <Header />
     <section className='generos'>
       <section className='imagenes'>
+    <section>
       <section >
         <img src={portada} height={100} width={100} />
       </section>
@@ -20,6 +21,8 @@ function LibrosGenero() {
       <section >
         <img src={portada} height={100} width={100} />
       </section>
+      </section>
+      <section>
       <section >
         <img src={portada} height={100} width={100} />
       </section>
@@ -34,6 +37,7 @@ function LibrosGenero() {
       </section>
     </section>
     </section>
+</section>
     </section>
   )
 }

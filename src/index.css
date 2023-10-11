@@ -69,5 +69,9 @@ body{
 .generos{
   display: flex;
   flex-direction: row;
-  padding: 10px;
+}
+.imagenes{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
