@@ -69,4 +69,5 @@ body{
 .generos{
   display: flex;
   flex-direction: row;
+  padding: 10px;
 }
