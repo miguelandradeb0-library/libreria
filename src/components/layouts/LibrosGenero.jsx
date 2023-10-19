@@ -6,36 +6,6 @@ function LibrosGenero() {
   return (
     <section className='libros'>
         <Header />
-    <section className='generos'>
-      <section className='imagenes'>
-    <section>
-      <section >
-        <img src={portada} height={100} width={100} />
-      </section>
-      <section >
-        <img src={portada} height={100} width={100} />
-      </section>
-      <section >
-        <img src={portada} height={100} width={100} />
-      </section>
-      <section >
-        <img src={portada} height={100} width={100} />
-      </section>
-      </section>
-      <section>
-      <section >
-        <img src={portada} height={100} width={100} />
-      </section>
-      <section >
-        <img src={portada} height={100} width={100} />
-      </section>
-      <section >
-        <img src={portada} height={100} width={100} />
-      </section>
-      <section >
-        <img src={portada} height={100} width={100} />
-      </section>
-    </section>
       <section className='generos'>
         <section className='seccionSuperior'>
         <section className='librosCoverUno'>
