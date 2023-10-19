@@ -45,8 +45,6 @@ function LibrosGenero() {
         </section>
       </section>
     </section>
-</section>
-    </section>
   )
 }
 
