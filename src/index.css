@@ -1,34 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
-body{
+
+body {
   width: 100%;
   height: 100vh;
   background-image: url(./components/images/library_wallpaper.jpg );
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
-#root{
+
+#root {
   width: 95%;
   height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.contenedor{
+
+.contenedor {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.main, .contacto{
+
+.main,
+.contacto {
   width: 100%;
   height: 100%;
   display: flex;
@@ -36,14 +42,20 @@ body{
   justify-content: space-between;
   flex-direction: column;
 }
-.main header, .contacto header, .libros header{
+
+.main header,
+.contacto header,
+.libros header {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 70px;
 }
-.main header Link, .contacto header Link, .libros header Link{
+
+.main header Link,
+.contacto header Link,
+.libros header Link {
   text-decoration: none;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -54,14 +66,17 @@ body{
   text-align: center;
   background-color: white;
 }
-.main section, .contacto section{
+
+.main section,
+.contacto section {
   width: 100%;
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.informacion{
+
+.informacion {
   color: white;
   display: flex;
   flex-direction: column;
@@ -72,7 +87,8 @@ body{
   width: 100%;
   height: 100vh;
 }
-.generos{
+
+.generos {
   display: flex;
   width: 100%;
   height: 90vh;
@@ -96,7 +112,7 @@ body{
   align-items: center;
 }
 
-.container-login{
+.container-login {
   background-color: white;
   width: 50%;
   height: 50%;
@@ -106,7 +122,7 @@ body{
   align-items: center;
 }
 
-.login-form{
+.login-form {
   display: flex;
   gap: 0.3rem;
   flex-direction: column;
