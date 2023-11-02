@@ -44,25 +44,29 @@ const Login = () => {
     }
 
     return (
-        <section className='container-login'>
-            <h1 color='white'>Login</h1>
-            <section>
-                <form onSubmit={handleError} className='login-form'>
-                    <label>User</label>
-                    <input type="text" placeholder='User' value={user} onChange={(e) => setUser(e.target.value)} />
-                    <label>Password</label>
-                    <input type="password" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
-                    <input type="submit" className='input-submit'/>
+    <section className='form-main'>
+    <section className='container-login'>
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div class="circle-3"></div>
+        <section className='login-form'>
+            <section className='box'>
+                <h1>Inicio de Sesión</h1>
+                <form onSubmit={handleError} >
+                    <input type="text" placeholder='Usuario' className='input-control' value={user} onChange={(e) => setUser(e.target.value)}/>
+       
+                    <input type="password" placeholder='Contraseña' className='input-control' value={password} onChange={(e) => setPassword(e.target.value)}/>
+                    <div class="input-link">
+                            <a href="#" class="gradient-text">Has olvidado tu contraseña</a>
+                    </div>
+                    <input type="submit"className='btn'value='Ingresar'/>
+                    <p>NO tienes cuenta <Link to="/register">Registrate</Link></p>
                 </form>
+
             </section>
-            <button><Link to="/register">Register</Link></button>
-            {
-                error && <p>Both fields must be filled out</p>
-            }
-            {
-                error2 && <p>User or Password incorrect</p>
-            }
         </section>
+    </section>
+    </section>
     )
 }
 
