@@ -9,17 +9,18 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  
   background-image: url(./components/images/library_wallpaper.jpg );
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 
 }
 
 #root {
   width: 95%;
-  height: 95vh;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +32,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  
 }
 
 .main,
@@ -67,7 +70,7 @@ body {
   text-align: center;
   background-color: white;
 }
-.main section, .contacto section{
+
 .main section,
 .contacto section {
   width: 100%;
@@ -91,57 +94,88 @@ body {
 
 .generos{
   display: flex;
-  flex-direction: row;
-}
-.imagenes{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  flex-direction: column;
   width: 100%;
-  height: 100%;
+  justify-content: space-between;
   
+  padding: 10px;
+  height: 100%;
 }
+
 .seccionSuperior{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .seccionInferior{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
+h1{
+  color: red;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+  
+}
+.botonGenero{
+  font-size: 40px;
+  border-radius: 10px;
+  margin: 10Px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-color:#000000;
+  border-style: solid;
+  border-width: 3px;
+  width: 200px;
+  
+}
+.botonGenero:hover{
+  background-color: #c6cacf;
+  cursor: pointer;
+}
 .librosCoverUno{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .libros {
-  display: grid;
+  display: flex;
   width: 100%;
   height: 100vh;
+  background-color: blueviolet;
 }
 
 .generos {
   display: flex;
-  width: 100%;
+  width: 80vw;
   height: 90vh;
   flex-direction: column;
+  
+  justify-content: space-between;
+  padding: 10px;
+  
 }
 
 .parteArriba {
   display: flex;
   flex-direction: row;
-  height: 50%;
-  background-color: wheat;
+  height: 100%;
+  
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between
 }
 
 .parteAbajo {
   display: flex;
   flex-direction: row;
-  height: 50%;
-  justify-content: space-evenly;
+  height: 100%;
+  
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -196,6 +230,71 @@ body {
   justify-content: center;
   align-items: center;
 }
+.contenedorLibros{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+
+}
+.opcionLibros{
+  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+
+}
+#imgLibro{
+  display: flex;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+#informacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+#opcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+ 
+}
+#comprar{
+  display: flex;
+  margin: 30px;
+  border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-color:#6c757d;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 100;
+    background-color: #017af3;
+}
+#comprar:hover{
+  background-color: #c6cacf;
+}
+#prestamo{
+  display: flex;
+  margin: 30px;
+  border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-color:#6c757d;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 100;
+    background-color: #017af3;
+}
+#prestamo:hover{
+  background-color: #c6cacf;
+}
+
 .login-form {
   display: flex;
   gap: 0.3rem;

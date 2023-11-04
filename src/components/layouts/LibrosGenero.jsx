@@ -2,6 +2,14 @@ import React from 'react'
 import Header from '../helpers/Header'
 import portada from '../images/portada_ejemplo.jpg'
 import { Link } from 'react-router-dom'
+import terrorImagen from '../images/taller-de-terror.jpg'
+import suspenso from '../images/suspenso.jpg'
+import romance from '../images/romance.jpg'
+import infantil from '../images/infantil.jpg'
+import fantasia from '../images/fantasia.jpg'
+import descarga from '../images/dramas.jpg'
+import aventura from '../images/aventura.jpg'
+import accion from '../images/accion.jpg'
 
 
 function LibrosGenero() {
@@ -11,38 +19,46 @@ function LibrosGenero() {
       <section className='generos'>
         <section className='parteArriba'>
           <section className='librosCoverUno'>
-            <Link to='/terror'><h1>Terror</h1></Link>
-            <img src={portada} height={100} width={100} />
+            
+            <img src={terrorImagen} height={150} width={200} />
+            <button className='botonGenero'><Link to='/terror'><h1>TERROR</h1></Link></button>
           </section>
           <section className='librosCoverDos'>
-          <Link to='/suspenso'><h1>Suspenso</h1></Link>
-            <img src={portada} height={100} width={100} />
+          
+            <img src={suspenso} height={150} width={200} />
+            <button className='botonGenero'><Link to='/suspenso'><h1>SUSPENSO</h1></Link></button>
           </section>
           <section className='librosCoverTres'>
-          <Link to='/romance'><h1>Romance</h1></Link>
-            <img src={portada} height={100} width={100} />
+          
+            <img src={romance} height={150} width={200} />
+            <button className='botonGenero'><Link to='/romance'><h1>ROMANCE</h1></Link></button>
           </section>
           <section className='librosCoverCuatro'>
-          <Link to='/infantil'><h1>Infantil</h1></Link>
-            <img src={portada} height={100} width={100} />
+          
+            <img src={infantil} height={150} width={200} />
+            <button className='botonGenero'><Link to='/infantil'><h1>INFANTIL</h1></Link></button>
           </section>
         </section>
         <section className='parteAbajo'>
           <section className='librosCoverQuinto'>
-          <Link to='/fantasia'><h1>Fantasia</h1></Link>
-            <img src={portada} height={100} width={100} />
+          
+            <img src={fantasia} height={150} width={200} />
+            <button className='botonGenero'><Link to='/fantasia'><h1>FANTASIA</h1></Link></button>
           </section>
           <section className='librosCoverSexto'>
-          <Link to='/drama'><h1>Drama</h1></Link>
-            <img src={portada} height={100} width={100} />
+          
+            <img src={descarga} height={150} width={200} />
+            <button className='botonGenero'><Link to='/drama'><h1>DRAMA</h1></Link></button>
           </section>
           <section className='librosCoverSeptimo'>
-          <Link to='/aventura'><h1>Aventura</h1></Link>
-            <img src={portada} height={100} width={100} />
+          
+            <img src={aventura} height={150} width={200} />
+            <button className='botonGenero'><Link to='/aventura'><h1>AVENTURA</h1></Link></button>
           </section>
           <section className='librosCoverOctavo'>
-            <Link to='/accion'><h1>Accion</h1></Link>
-            <img src={portada} height={100} width={100} />
+            
+            <img src={accion} height={150} width={200} />
+            <button className='botonGenero'><Link to='/accion'><h1>ACCION</h1></Link></button>
           </section>
         </section>
       </section>
